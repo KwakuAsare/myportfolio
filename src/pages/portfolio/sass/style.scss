@@ -1,0 +1,95 @@
+@import '../../../Index_sass/sass/index.scss';
+
+#portfolio {
+    main {
+      margin-top: 8em;
+      width: 100%;
+      max-width: 100%;
+      .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        // justify-content: center;
+        .box-container {
+          width: 100%;
+          position: relative;
+          &-icons {
+            position: absolute;
+            width: 100%;
+            top: 5%;
+            left: 5%;
+            z-index: 1;
+            a {
+              i {
+                background-color: $c-theme;
+                border-radius: 50%;
+                padding: 1em;
+                color: $c-white;
+                margin-bottom: .5em;
+                font-size: 1em;
+                @include box-shadow;
+                transition: all .5s;
+              }
+              &:hover, &:focus {
+                i {
+                  background-color: $c-theme-accent-darken;
+                }
+              }
+            }
+          }
+          @media (min-width: 500px) {
+            width: 50%;
+          }
+          @media (min-width: 800px) {
+            width: 33.333%;
+          }
+          // @media (min-width: 1200px) {
+          //   width: 25%;
+          // }
+        .box {
+          background: lightgrey;
+          height: 100vw;
+          border-bottom: thin $c-white solid;
+          @media (min-width: 500px) {
+            height: 50vw;
+            border: thin $c-white solid;
+          }
+          @media (min-width: 800px) {
+            height: 33.333vw;
+          }
+          // @media (min-width: 1200px) {
+          //   height: 25vw;
+          // }
+          position: relative;
+          .work-thumbnail {
+            width: 100%;
+            height: 100%;
+            padding: 5em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: $c-black no-repeat top center / cover;
+          }
+            &-overlay {
+              position: absolute;
+              width: 100%;
+              height:100%;
+              top:0;
+              left:0;
+              background:rgba(darken($c-theme, 20%), 0.9);;
+              opacity: 0;
+              transition: all .5s;
+              .title {
+                color: $c-white;
+                font-family: $f-headings;
+                text-align: center;
+                margin-top: 45%;
+              }
+              &:hover {
+                opacity: 1;
+              }
+            }
+          }
+        }
+      }
+    }
+}

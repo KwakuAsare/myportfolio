@@ -1,0 +1,50 @@
+[
+    {
+        "gitHubLink": "https://github.com/KwakuAsare/codeproject",
+        "liveLink": "https://kwakuasare.github.io/codeproject/",
+        "image": {
+            "backgroundImage": "url('./assets/images/portfolio-images/randomfacts2.jpg')"
+        },
+        "title": "Random Facts"
+    },
+    {
+        "gitHubLink": "https://github.com/swimmaison/Kitten-Helper",
+        "liveLink": "https://foster-kitten-helper.herokuapp.com/",
+        "image": {
+            "backgroundImage": "url('./assets/images/portfolio-images/kittenhelper.jpg')"
+        },
+        "title": "Kitten Helper"
+    },
+    {
+        "gitHubLink": "https://github.com/KwakuAsare/weatherapp",
+        "liveLink": "https://kwakuasare.github.io/weatherapp/",
+        "image": {
+            "backgroundImage": "url('./assets/images/portfolio-images/weather-dash.jpg')"
+        },
+        "title": "Weather App"
+    },
+    {
+        "gitHubLink": "https://github.com/BraenaanV/Task-Assistant-Plus",
+        "liveLink": "https://bvproject2.herokuapp.com/",
+        "image": {
+            "backgroundImage": "url('./assets/images/portfolio-images/taskassistant.jpg')"
+        },
+        "title": "Task Assistant +"
+    },
+    {
+        "gitHubLink": "https://github.com/KwakuAsare/workoutTracker",
+        "liveLink": "https://fierce-river-73927.herokuapp.com/",
+        "image": {
+            "backgroundImage": "url('./assets/images/portfolio-images/fittracker.jpg')"
+        },
+        "title": "Fitness Tracker"
+    },
+    {
+        "gitHubLink": "https://github.com/KwakuAsare/note-taker",
+        "liveLink": "https://glacial-meadow-74200.herokuapp.com/",
+        "image": {
+            "backgroundImage": "url('./assets/images/portfolio-images/notetaker.jpg')"
+        },
+        "title": "Note Taker"
+    }
+]
